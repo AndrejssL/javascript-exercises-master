@@ -5,9 +5,10 @@
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "test:medium": "jest exercises/medium",
-    "prettier": "prettier --write exercises/**/*.js",
-    "prettier:check": "prettier --check exercises/**/*.js"
+    "test:easy": "jest src/exercises/easy",
+    "test:medium": "jest src/exercises/medium",
+    "prettier": "prettier --write src/**/*.js",
+    "prettier:check": "prettier --check src/**/*.js"
   },
   "dependencies": {
     "jest": "^24.8.0",
