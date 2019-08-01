@@ -1,0 +1,12 @@
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+  - script: |
+      docker build -t javascript-exercises:latest .
+      docker run javascript-exercises:latest run prettier:check
+     docker run javascript-exercises:latest run test:easy
+    displayName: 'Build'

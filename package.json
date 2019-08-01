@@ -1,0 +1,18 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "author": "codelex",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest",
+    "test:easy": "jest src/exercises/easy",
+    "prettier": "prettier --write src/**/*.js",
+    "prettier:check": "prettier --check src/**/*.js"
+  },
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "inquirer": "^6.5.0",
+    "jest": "^24.8.0",
+    "prettier": "1.18.2"
+  }
+}
