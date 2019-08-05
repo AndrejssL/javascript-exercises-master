@@ -5,7 +5,6 @@
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "test:easy": "jest src/exercises/easy",
     "test:medium": "jest src/exercises/medium",
     "prettier": "prettier --write src/**/*.js",
     "prettier:check": "prettier --check src/**/*.js"
